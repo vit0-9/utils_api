@@ -1,7 +1,7 @@
 # ---- Builder Stage ----
 # Use an official Go image. Alpine is small.
 # Ensure the Go version matches your project's go.mod or is compatible.
-FROM golang:1.22-alpine AS builder
+FROM golang:1.24-alpine AS builder
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -9,6 +9,7 @@ WORKDIR /app
 # Install build tools if necessary (e.g., git for private modules, though not needed here)
 # RUN apk add --no-cache git
 
+RUN go install github.com/swaggo/swag/cmd/swag@latest
 # Copy go.mod and go.sum files to download dependencies first
 # This leverages Docker's layer caching.
 COPY go.mod go.sum ./
@@ -18,6 +19,7 @@ RUN go mod download && go mod verify
 # This includes your main.go, app.go, handlers/, models/, pkg/, etc.
 COPY . .
 
+RUN /go/bin/swag init -g app.go
 # Build the Go application
 # -o /app/utils_api: output the binary named 'utils_api' to /app/
 # -ldflags="-w -s": strip debugging information to reduce binary size
