@@ -16,6 +16,7 @@ utils_api # Your compiled application binary name
 # IDE and editor specific files
 .vscode/
 .idea/
+data/
 *.project
 *.classpath
 *.cproject
