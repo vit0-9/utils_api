@@ -1,0 +1,437 @@
+[
+  {
+    "key": "fbclid",
+    "match_type": "exact",
+    "company": "Facebook",
+    "type": "Advertisement/Social",
+    "description": "Facebook Click Identifier"
+  },
+  {
+    "key": "gclid",
+    "match_type": "exact",
+    "company": "Google Ads",
+    "type": "Advertisement",
+    "description": "Google Click Identifier"
+  },
+  {
+    "key": "gclsrc",
+    "match_type": "exact",
+    "company": "Google Ads",
+    "type": "Advertisement",
+    "description": "Google Click Source (indicates if Google or a search partner)"
+  },
+  {
+    "key": "utm_",
+    "match_type": "prefix",
+    "company": "Various (Originally Google Analytics)",
+    "type": "Analytics/Campaign Tracking",
+    "description": "Urchin Tracking Module parameters"
+  },
+  {
+    "key": "_ga",
+    "match_type": "exact",
+    "company": "Google Analytics",
+    "type": "Analytics",
+    "description": "Google Analytics Client ID"
+  },
+  {
+    "key": "mc_cid",
+    "match_type": "exact",
+    "company": "Mailchimp",
+    "type": "Email Marketing",
+    "description": "Mailchimp Campaign ID"
+  },
+  {
+    "key": "mc_eid",
+    "match_type": "exact",
+    "company": "Mailchimp",
+    "type": "Email Marketing",
+    "description": "Mailchimp Email ID (subscriber identifier)"
+  },
+  {
+    "key": "_bta_tid",
+    "match_type": "exact",
+    "company": "Bronto (Oracle)",
+    "type": "Email Marketing",
+    "description": "Bronto Transactional ID"
+  },
+  {
+    "key": "_bta_c",
+    "match_type": "exact",
+    "company": "Bronto (Oracle)",
+    "type": "Email Marketing",
+    "description": "Bronto Contact ID"
+  },
+  {
+    "key": "trk_",
+    "match_type": "prefix",
+    "company": "Various (e.g., HubSpot, Act-On)",
+    "type": "Marketing Automation/Tracking",
+    "description": "Generic tracking prefix"
+  },
+  {
+    "key": "gdfms",
+    "match_type": "exact",
+    "company": "GoDaddy",
+    "type": "Marketing/Analytics",
+    "description": "GoDaddy Email Marketing Source"
+  },
+  {
+    "key": "gdftrk",
+    "match_type": "exact",
+    "company": "GoDaddy",
+    "type": "Marketing/Analytics",
+    "description": "GoDaddy Tracking"
+  },
+  {
+    "key": "gdffi",
+    "match_type": "exact",
+    "company": "GoDaddy",
+    "type": "Affiliate/Referral",
+    "description": "GoDaddy Affiliate Identifier"
+  },
+  {
+    "key": "_ke",
+    "match_type": "exact",
+    "company": "Klaviyo",
+    "type": "Email Marketing",
+    "description": "Klaviyo Encoded User Identifier"
+  },
+  {
+    "key": "sb_referer_host",
+    "match_type": "exact",
+    "company": "Springbot",
+    "type": "Marketing Analytics",
+    "description": "Springbot Referer Host"
+  },
+  {
+    "key": "mkwid",
+    "match_type": "exact",
+    "company": "Various (e.g., SA360, Marin, Kenshoo)",
+    "type": "Advertisement",
+    "description": "Match[ed] Keyword ID, often for bid management platforms"
+  },
+  {
+    "key": "pcrid",
+    "match_type": "exact",
+    "company": "Various (e.g., SA360)",
+    "type": "Advertisement",
+    "description": "Product Creative ID / Publisher Creative ID"
+  },
+  {
+    "key": "ef_id",
+    "match_type": "exact",
+    "company": "Adobe Advertising Cloud",
+    "type": "Advertisement",
+    "description": "Adobe Advertising Cloud click tracking ID"
+  },
+  {
+    "key": "s_kwcid",
+    "match_type": "exact",
+    "company": "Adobe Analytics / Google Ads",
+    "type": "Advertisement/Analytics",
+    "description": "Adobe Analytics Keyword Campaign ID (often used with Google Ads)"
+  },
+  {
+    "key": "msclkid",
+    "match_type": "exact",
+    "company": "Microsoft Advertising (Bing Ads)",
+    "type": "Advertisement",
+    "description": "Microsoft Click ID"
+  },
+  {
+    "key": "dm_i",
+    "match_type": "exact",
+    "company": "Dotdigital (formerly Dotmailer)",
+    "type": "Marketing Automation/Email",
+    "description": "Dotdigital Identifier (contact, campaign, link)"
+  },
+  {
+    "key": "epik",
+    "match_type": "exact",
+    "company": "Pinterest",
+    "type": "Advertisement/Social",
+    "description": "Pinterest Click ID (Etsy Pattern Ideas Key)"
+  },
+  {
+    "key": "pk_",
+    "match_type": "prefix",
+    "company": "Matomo (formerly Piwik)",
+    "type": "Analytics",
+    "description": "Matomo (Piwik) tracking parameters"
+  },
+  {
+    "key": "piwik_",
+    "match_type": "prefix",
+    "company": "Matomo (Legacy Piwik)",
+    "type": "Analytics",
+    "description": "Legacy Piwik tracking parameters"
+  },
+  {
+    "key": "mtm_",
+    "match_type": "prefix",
+    "company": "Matomo",
+    "type": "Analytics",
+    "description": "Matomo tracking parameters (newer versions)"
+  },
+  {
+    "key": "matomo_",
+    "match_type": "prefix",
+    "company": "Matomo",
+    "type": "Analytics",
+    "description": "Matomo tracking parameters"
+  },
+  {
+    "key": "hsa_",
+    "match_type": "prefix",
+    "company": "HubSpot",
+    "type": "Advertisement/Analytics",
+    "description": "HubSpot Ads tracking parameters"
+  },
+  {
+    "key": "_branch_match_id",
+    "match_type": "exact",
+    "company": "Branch.io",
+    "type": "Mobile Deep Linking/Attribution",
+    "description": "Branch deep linking match ID"
+  },
+  {
+    "key": "mkevt",
+    "match_type": "exact",
+    "company": "eBay",
+    "type": "Affiliate",
+    "description": "eBay Partner Network event type"
+  },
+  {
+    "key": "mkcid",
+    "match_type": "exact",
+    "company": "eBay",
+    "type": "Affiliate",
+    "description": "eBay Partner Network campaign ID"
+  },
+  {
+    "key": "mkrid",
+    "match_type": "exact",
+    "company": "eBay",
+    "type": "Affiliate",
+    "description": "eBay Partner Network rotator ID"
+  },
+  {
+    "key": "campid",
+    "match_type": "exact",
+    "company": "eBay / Various",
+    "type": "Affiliate/Campaign",
+    "description": "Campaign ID"
+  },
+  {
+    "key": "toolid",
+    "match_type": "exact",
+    "company": "eBay / Various",
+    "type": "Affiliate/Tool",
+    "description": "Tool ID used for tracking"
+  },
+  {
+    "key": "customid",
+    "match_type": "exact",
+    "company": "Various",
+    "type": "Affiliate/Custom Tracking",
+    "description": "Custom Identifier for tracking"
+  },
+  {
+    "key": "igshid",
+    "match_type": "exact",
+    "company": "Instagram",
+    "type": "Social",
+    "description": "Instagram Share ID"
+  },
+  {
+    "key": "si",
+    "match_type": "exact",
+    "company": "Spotify / Various",
+    "type": "Referral/Social/Session",
+    "description": "Source Identifier or Session Identifier"
+  },
+  {
+    "key": "sms_",
+    "match_type": "prefix",
+    "company": "Various",
+    "type": "SMS Marketing/Tracking",
+    "description": "SMS campaign tracking prefix"
+  },
+
+  {
+    "key": "dclid",
+    "match_type": "exact",
+    "company": "Google Display Network",
+    "type": "Advertisement",
+    "description": "DoubleClick Click Identifier"
+  },
+  {
+    "key": "zanpid",
+    "match_type": "exact",
+    "company": "Awin (formerly Zanox)",
+    "type": "Affiliate",
+    "description": "Awin Publisher ID"
+  },
+  {
+    "key": "cjevent",
+    "match_type": "exact",
+    "company": "CJ Affiliate (Commission Junction)",
+    "type": "Affiliate",
+    "description": "Commission Junction Event ID"
+  },
+  {
+    "key": "aff_",
+    "match_type": "prefix",
+    "company": "Various",
+    "type": "Affiliate",
+    "description": "Generic Affiliate ID prefix"
+  },
+  {
+    "key": "yclid",
+    "match_type": "exact",
+    "company": "Yandex",
+    "type": "Advertisement",
+    "description": "Yandex Click ID"
+  },
+  {
+    "key": "_hsenc",
+    "match_type": "exact",
+    "company": "HubSpot",
+    "type": "Marketing Automation/Email",
+    "description": "HubSpot Encoded User Token"
+  },
+  {
+    "key": "_hsmi",
+    "match_type": "exact",
+    "company": "HubSpot",
+    "type": "Marketing Automation/Email",
+    "description": "HubSpot Marketing Identifier"
+  },
+  {
+    "key": "vero_conv",
+    "match_type": "exact",
+    "company": "Vero",
+    "type": "Email Marketing",
+    "description": "Vero Conversion ID"
+  },
+  {
+    "key": "vero_id",
+    "match_type": "exact",
+    "company": "Vero",
+    "type": "Email Marketing",
+    "description": "Vero User ID"
+  },
+  {
+    "key": "oly_anon_id",
+    "match_type": "exact",
+    "company": "Omeda",
+    "type": "Analytics/Email",
+    "description": "Omeda Anonymous ID"
+  },
+  {
+    "key": "oly_enc_id",
+    "match_type": "exact",
+    "company": "Omeda",
+    "type": "Analytics/Email",
+    "description": "Omeda Encrypted ID"
+  },
+  {
+    "key": "spm",
+    "match_type": "exact",
+    "company": "Alibaba",
+    "type": "Tracking",
+    "description": "Super Position Model (Alibaba tracking)"
+  },
+  {
+    "key": "WT.mc_id",
+    "match_type": "exact",
+    "company": "Webtrends",
+    "type": "Analytics/Campaign Tracking",
+    "description": "Webtrends Marketing Campaign ID"
+  },
+  {
+    "key": "WT.srch",
+    "match_type": "exact",
+    "company": "Webtrends",
+    "type": "Analytics",
+    "description": "Webtrends Search Tracking"
+  },
+  {
+    "key": "wt_",
+    "match_type": "prefix",
+    "company": "Webtrends",
+    "type": "Analytics",
+    "description": "Webtrends general tracking prefix"
+  },
+  {
+    "key": "ICID",
+    "match_type": "exact",
+    "company": "Various",
+    "type": "Campaign Tracking",
+    "description": "Internal Campaign ID"
+  },
+  {
+    "key": "irclickid",
+    "match_type": "exact",
+    "company": "Impact",
+    "type": "Affiliate/Partnership",
+    "description": "Impact Radius Click ID"
+  },
+  {
+    "key": "braze_",
+    "match_type": "prefix",
+    "company": "Braze (formerly Appboy)",
+    "type": "Marketing Automation/Email/Push",
+    "description": "Braze tracking parameters"
+  },
+  {
+    "key": "iterablecampaignid",
+    "match_type": "exact",
+    "company": "Iterable",
+    "type": "Email Marketing/Automation",
+    "description": "Iterable Campaign ID"
+  },
+  {
+    "key": "explictid",
+    "match_type": "exact",
+    "company": "Adobe Target",
+    "type": "Personalization/Testing",
+    "description": "Adobe Target Explicit ID"
+  },
+  {
+    "key": "redirectsource",
+    "match_type": "exact",
+    "company": "Various",
+    "type": "Referral/Tracking",
+    "description": "Source of a redirect"
+  },
+  {
+    "key": "rdt_cid",
+    "match_type": "exact",
+    "company": "Reddit",
+    "type": "Advertisement/Social",
+    "description": "Reddit Click ID"
+  },
+  {
+    "key": "ttclid",
+    "match_type": "exact",
+    "company": "TikTok",
+    "type": "Advertisement/Social",
+    "description": "TikTok Click ID"
+  },
+  {
+    "key": "twclid",
+    "match_type": "exact",
+    "company": "Twitter / X",
+    "type": "Advertisement/Social",
+    "description": "Twitter Click ID"
+  },
+  {
+    "key": "sref_id",
+    "match_type": "exact",
+    "company": "ShareASale",
+    "type": "Affiliate",
+    "description": "ShareASale Click ID"
+  }
+]

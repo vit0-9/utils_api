@@ -1,0 +1,40 @@
+# Git specific
+.git/
+.gitignore
+
+# Docker specific
+Dockerfile
+.dockerignore
+
+# Go build artifacts (if built locally)
+utils_api
+*.exe
+*.test
+
+# IDE/Editor specific folders
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Local environment files (should not be in the image)
+.env
+*.env.local
+*.env.*.local
+
+# Log files
+*.log
+
+# Generated documentation (swag docs) - not needed in the final image
+docs/
+
+# Test files (if you don't need them for any build steps, though `go build .` usually excludes them)
+# *_test.go
+
+# Vendor directory if you happen to use `go mod vendor` and don't clean it
+vendor/
